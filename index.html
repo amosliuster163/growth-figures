@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>名人成长故事 | 每日一读</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; line-height: 1.8; max-width: 900px; margin: auto; padding: 20px; background: #f5f5f5; }
+        h1 { color: #2c3e50; text-align: center; border-bottom: 3px solid #3498db; padding-bottom: 10px; }
+        .intro { text-align: center; color: #666; margin: 20px 0; }
+        .figure-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 20px; margin: 30px 0; }
+        .figure-card { background: white; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .figure-card:hover { transform: translateY(-5px); }
+        .figure-name { font-size: 1.3em; color: #2c3e50; margin-bottom: 10px; }
+        .figure-era { color: #888; font-size: 0.9em; }
+        .figure-tagline { color: #3498db; margin: 10px 0; font-weight: bold; }
+        .figure-link { display: inline-block; padding: 8px 15px; background: #3498db; color: white; border-radius: 5px; text-decoration: none; }
+        .figure-link:hover { background: #2980b9; }
+        .script-link { display: inline-block; padding: 8px 15px; background: #e74c3c; color: white; border-radius: 5px; text-decoration: none; margin-left: 5px; }
+        .script-link:hover { background: #c0392b; }
+        .stats { background: #d4edda; border-left: 4px solid #28a745; padding: 15px; margin: 20px 0; }
+        .nav-links { text-align: center; margin: 20px 0; }
+        .nav-links a { color: #3498db; margin: 0 10px; }
+    </style>
+</head>
+<body>
+
+<h1>📖 名人成长故事</h1>
+
+<p class="intro">每日一读，从历史人物中汲取成长智慧</p>
+
+<div class="stats">
+    <strong>📚 已收录人物</strong>: <span id="count">0</span> 位 | 
+    <strong>📝 视频脚本</strong>: <span id="script-count">0</span> 个 |
+    <strong>💡 成长启示</strong>: 每个故事提炼核心启示
+</div>
+
+<div class="nav-links">
+    <a href="https://amosliuster163.github.io/ai-tools-hub/">AI工具导航</a> |
+    <a href="https://ai-tools-hub-zeta.vercel.app/">Vercel镜像</a>
+</div>
+
+<div class="figure-list" id="figures">
+
+<!-- 曾国藩 -->
+<div class="figure-card">
+    <div class="figure-name">曾国藩</div>
+    <div class="figure-era">清朝 · 1811-1872</div>
+    <div class="figure-tagline">笨功夫成就大事业</div>
+    <p>晚清名臣，从"笨小孩"到一代圣贤，用日课13条修炼心性。</p>
+    <a href="figures/zeng-guofan.html" class="figure-link">阅读全文</a>
+    <a href="scripts/zeng-guofan-script.md" class="script-link">视频脚本</a>
+</div>
+
+<!-- 范仲淹 -->
+<div class="figure-card">
+    <div class="figure-name">范仲淹</div>
+    <div class="figure-era">宋朝 · 989-1052</div>
+    <div class="figure-tagline">划粥断齑苦读成才</div>
+    <p>北宋名臣，"先天下之忧而忧"，从孤儿到名臣的逆袭。</p>
+    <a href="figures/fan-zhongyan.html" class="figure-link">阅读全文</a>
+    <a href="scripts/fan-zhongyan-script.md" class="script-link">视频脚本</a>
+</div>
+
+<!-- 王阳明 -->
+<div class="figure-card">
+    <div class="figure-name">王阳明</div>
+    <div class="figure-era">明朝 · 1472-1529</div>
+    <div class="figure-tagline">龙场悟道心即理</div>
+    <p>心学创始人，"知行合一"提出者，困境中的觉醒。</p>
+    <a href="figures/wang-yangming.html" class="figure-link">阅读全文</a>
+    <a href="scripts/wang-yangming-script.md" class="script-link">视频脚本</a>
+</div>
+
+<!-- 苏东坡 -->
+<div class="figure-card">
+    <div class="figure-name">苏东坡</div>
+    <div class="figure-era">宋朝 · 1037-1101</div>
+    <div class="figure-tagline">一蓑烟雨任平生</div>
+    <p>文坛领袖，三次贬谪，越贬越远却越活越洒脱。</p>
+    <a href="figures/su-dongpo.html" class="figure-link">阅读全文</a>
+    <a href="scripts/su-dongpo-script.md" class="script-link">视频脚本</a>
+</div>
+
+<!-- 诸葛亮 -->
+<div class="figure-card">
+    <div class="figure-name">诸葛亮</div>
+    <div class="figure-era">三国 · 181-234</div>
+    <div class="figure-tagline">鞠躬尽瘁死而后已</div>
+    <p>蜀汉丞相，"卧龙先生"，27年的奉献与坚持。</p>
+    <a href="figures/zhuge-liang.html" class="figure-link">阅读全文</a>
+    <a href="scripts/zhuge-liang-script.md" class="script-link">视频脚本</a>
+</div>
+
+<!-- 更多人物将陆续添加 -->
+
+</div>
+
+<hr>
+<p style="text-align: center; color: #666;">
+    —— 名人成长故事 · 每日一读 ——
+</p>
+
+</body>
+</html>
